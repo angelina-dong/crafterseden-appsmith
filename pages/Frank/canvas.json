@@ -59,7 +59,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "test",
+              "text": "test and test",
               "key": "iuj9quy4sq",
               "isDeprecated": false,
               "rightColumn": 32,

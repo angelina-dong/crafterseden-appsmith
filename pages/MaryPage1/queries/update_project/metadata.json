@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "delete_order",
+    "name": "update_project",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/delete_order"
+        "url": "web:4000/m/update_project"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Mary",
+    "pageId": "MaryPage1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -31,7 +31,7 @@
       "queryParameters": [],
       "body": "",
       "bodyFormData": [],
-      "httpMethod": "DELETE",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Mary_delete_order",
+  "id": "MaryPage1_update_project",
   "deleted": false,
-  "gitSyncId": "643c031576e01f34e5170c93_643c119276e01f34e5170cb1"
+  "gitSyncId": "643c031576e01f34e5170c93_643c115076e01f34e5170cad"
 }

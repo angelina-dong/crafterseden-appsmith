@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api2",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000"
+        "url": "web:4000/f/products"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Frank",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Delete_Product_Form.data}}",
+      "body": "{{Add_New_Bead_Product.data}}",
       "bodyFormData": [],
-      "httpMethod": "DELETE",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -52,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Delete_Product_Form.data"
+      "Add_New_Bead_Product.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Api2",
+  "id": "Frank_Api1",
   "deleted": false,
-  "gitSyncId": "643c08f03ee7d534e3ad7198_643c160d3ee7d534e3ad71a7"
+  "gitSyncId": "643c08f03ee7d534e3ad7198_643c0fa63ee7d534e3ad71a0"
 }

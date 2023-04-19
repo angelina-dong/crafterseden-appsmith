@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/add_new_project"
+        "url": "web:4000/m/projects"
       },
       "invalids": [],
       "messages": [],

@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/orders/<OrderID>"
+        "url": "web:4000/m/orders/{{order_to_del.inputText}}"
       },
       "invalids": [],
       "messages": [],
@@ -46,13 +46,17 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "datasourceUrl"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "order_delete.data"
+      "order_delete.data",
+      "order_to_del.inputText"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

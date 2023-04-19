@@ -347,7 +347,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Photos",
+                      "widgetName": "Photos_A",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -1067,7 +1067,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "ProductID",
+                      "widgetName": "ProductID_D",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [

@@ -977,7 +977,9 @@
               "name": "get_product_details",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "Input1.text"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

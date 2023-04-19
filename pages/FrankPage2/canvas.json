@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 700,
           "containerStyle": "none",
           "snapRows": 77,
           "parentRowSpace": 1,
@@ -37,27 +37,6 @@
               "animateLoading": true,
               "dynamicBindingPathList": [
                 {
-                  "key": "primaryColumns.step.computedValue"
-                },
-                {
-                  "key": "primaryColumns.task.computedValue"
-                },
-                {
-                  "key": "primaryColumns.status.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.buttonColor"
-                },
-                {
-                  "key": "primaryColumns.action.borderRadius"
-                },
-                {
-                  "key": "primaryColumns.action.boxShadow"
-                },
-                {
                   "key": "accentColor"
                 },
                 {
@@ -65,10 +44,31 @@
                 },
                 {
                   "key": "boxShadow"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.Photos.computedValue"
+                },
+                {
+                  "key": "primaryColumns.ProductID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Rating.computedValue"
+                },
+                {
+                  "key": "primaryColumns.ReviewID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Username.computedValue"
+                },
+                {
+                  "key": "primaryColumns.WrittenReview.computedValue"
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 30,
+              "leftColumn": 27,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -102,21 +102,23 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681865769113,
+              "columnUpdatedAt": 1681914473263,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "get_product_review",
               "defaultPageSize": 0,
               "columnOrder": [
-                "step",
-                "task",
-                "status",
-                "action"
+                "Photos",
+                "ProductID",
+                "Rating",
+                "ReviewID",
+                "Username",
+                "WrittenReview"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 30,
+              "bottomRow": 36,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -128,108 +130,189 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "step": {
+                "Photos": {
+                  "allowCellWrapping": false,
                   "index": 0,
                   "width": 150,
-                  "id": "step",
-                  "originalId": "step",
-                  "alias": "step",
+                  "originalId": "Photos",
+                  "id": "Photos",
+                  "alias": "Photos",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "step",
-                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
-                  "validation": {},
+                  "label": "Photos",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Photos\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "task": {
+                "ProductID": {
+                  "allowCellWrapping": false,
                   "index": 1,
                   "width": 150,
-                  "id": "task",
-                  "originalId": "task",
-                  "alias": "task",
+                  "originalId": "ProductID",
+                  "id": "ProductID",
+                  "alias": "ProductID",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "text",
+                  "columnType": "number",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "task",
-                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
-                  "validation": {},
+                  "label": "ProductID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ProductID\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "status": {
+                "Rating": {
+                  "allowCellWrapping": false,
                   "index": 2,
                   "width": 150,
-                  "id": "status",
-                  "originalId": "status",
-                  "alias": "status",
+                  "originalId": "Rating",
+                  "id": "Rating",
+                  "alias": "Rating",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Rating",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Rating\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "ReviewID": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "ReviewID",
+                  "id": "ReviewID",
+                  "alias": "ReviewID",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ReviewID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ReviewID\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "Username": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "Username",
+                  "id": "Username",
+                  "alias": "Username",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "status",
-                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
-                  "validation": {},
+                  "label": "Username",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "action": {
-                  "index": 3,
+                "WrittenReview": {
+                  "allowCellWrapping": false,
+                  "index": 5,
                   "width": 150,
-                  "id": "action",
-                  "originalId": "action",
-                  "alias": "action",
+                  "originalId": "WrittenReview",
+                  "id": "WrittenReview",
+                  "alias": "WrittenReview",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "button",
+                  "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
-                  "isCellEditable": false,
                   "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "action",
-                  "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
-                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
-                  "validation": {},
+                  "label": "WrittenReview",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"WrittenReview\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF",
-                  "buttonColor": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
-                  "borderRadius": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{get_product_review.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
+                  "validation": {},
+                  "cellBackground": ""
                 }
               },
               "key": "vb00245dwl",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 64,
               "textSize": "0.875rem",
               "widgetId": "ltyawu62t5",
               "minWidth": 450,
-              "tableData": "[\n  {\n    \"step\": \"#1\",\n    \"task\": \"Drop a table\",\n    \"status\": \"✅\",\n    \"action\": \"\"\n  },\n  {\n    \"step\": \"#2\",\n    \"task\": \"Create a query fetch_users with the Mock DB\",\n    \"status\": \"--\",\n    \"action\": \"\"\n  },\n  {\n    \"step\": \"#3\",\n    \"task\": \"Bind the query using => fetch_users.data\",\n    \"status\": \"--\",\n    \"action\": \"\"\n  }\n]",
+              "tableData": "{{handle_get_product_reviews.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -245,33 +328,12 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 45,
+              "topRow": 42,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
               "animateLoading": true,
               "dynamicBindingPathList": [
-                {
-                  "key": "primaryColumns.step.computedValue"
-                },
-                {
-                  "key": "primaryColumns.task.computedValue"
-                },
-                {
-                  "key": "primaryColumns.status.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.buttonColor"
-                },
-                {
-                  "key": "primaryColumns.action.borderRadius"
-                },
-                {
-                  "key": "primaryColumns.action.boxShadow"
-                },
                 {
                   "key": "accentColor"
                 },
@@ -280,10 +342,37 @@
                 },
                 {
                   "key": "boxShadow"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.BeadID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.DateAdded.computedValue"
+                },
+                {
+                  "key": "primaryColumns.PaintID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.ProductID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.SupplierID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.UnitsInStock.computedValue"
+                },
+                {
+                  "key": "primaryColumns.UnitsOnOrder.computedValue"
+                },
+                {
+                  "key": "primaryColumns.YarnID.computedValue"
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 31,
+              "leftColumn": 29,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -317,7 +406,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681865769113,
+              "columnUpdatedAt": 1681915321677,
               "originalBottomRow": 71,
               "defaultSelectedRowIndices": [
                 0
@@ -325,14 +414,18 @@
               "widgetName": "get_suppliers_products",
               "defaultPageSize": 0,
               "columnOrder": [
-                "step",
-                "task",
-                "status",
-                "action"
+                "BeadID",
+                "DateAdded",
+                "PaintID",
+                "ProductID",
+                "SupplierID",
+                "UnitsInStock",
+                "UnitsOnOrder",
+                "YarnID"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 73,
+              "bottomRow": 70,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -341,129 +434,250 @@
               "parentRowSpace": 10,
               "hideCard": false,
               "parentColumnSpace": 6.109375,
+              "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "step": {
+                "BeadID": {
+                  "allowCellWrapping": false,
                   "index": 0,
                   "width": 150,
-                  "id": "step",
-                  "originalId": "step",
-                  "alias": "step",
+                  "originalId": "BeadID",
+                  "id": "BeadID",
+                  "alias": "BeadID",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "step",
-                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
-                  "validation": {},
+                  "label": "BeadID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"BeadID\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "task": {
+                "DateAdded": {
+                  "allowCellWrapping": false,
                   "index": 1,
                   "width": 150,
-                  "id": "task",
-                  "originalId": "task",
-                  "alias": "task",
+                  "originalId": "DateAdded",
+                  "id": "DateAdded",
+                  "alias": "DateAdded",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "task",
-                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
-                  "validation": {},
+                  "label": "DateAdded",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DateAdded\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "status": {
+                "PaintID": {
+                  "allowCellWrapping": false,
                   "index": 2,
                   "width": 150,
-                  "id": "status",
-                  "originalId": "status",
-                  "alias": "status",
+                  "originalId": "PaintID",
+                  "id": "PaintID",
+                  "alias": "PaintID",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "PaintID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PaintID\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "ProductID": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "ProductID",
+                  "id": "ProductID",
+                  "alias": "ProductID",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ProductID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ProductID\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "SupplierID": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "SupplierID",
+                  "id": "SupplierID",
+                  "alias": "SupplierID",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "SupplierID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"SupplierID\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "UnitsInStock": {
+                  "allowCellWrapping": false,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "UnitsInStock",
+                  "id": "UnitsInStock",
+                  "alias": "UnitsInStock",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "UnitsInStock",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UnitsInStock\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "UnitsOnOrder": {
+                  "allowCellWrapping": false,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "UnitsOnOrder",
+                  "id": "UnitsOnOrder",
+                  "alias": "UnitsOnOrder",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "UnitsOnOrder",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UnitsOnOrder\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "YarnID": {
+                  "allowCellWrapping": false,
+                  "index": 7,
+                  "width": 150,
+                  "originalId": "YarnID",
+                  "id": "YarnID",
+                  "alias": "YarnID",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
-                  "isCellEditable": false,
-                  "isDerived": false,
-                  "label": "status",
-                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
-                  "validation": {},
-                  "sticky": "",
-                  "labelColor": "#FFFFFF"
-                },
-                "action": {
-                  "index": 3,
-                  "width": 150,
-                  "id": "action",
-                  "originalId": "action",
-                  "alias": "action",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "button",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isCellVisible": true,
-                  "isCellEditable": false,
                   "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "action",
-                  "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
-                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
-                  "validation": {},
+                  "label": "YarnID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"YarnID\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF",
-                  "buttonColor": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
-                  "borderRadius": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{get_suppliers_products.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
+                  "validation": {},
+                  "cellBackground": ""
                 }
               },
               "key": "vb00245dwl",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 62,
               "textSize": "0.875rem",
               "widgetId": "y3kaqgwk95",
               "minWidth": 450,
-              "tableData": [
-                {
-                  "step": "#1",
-                  "task": "Drop a table",
-                  "status": "✅",
-                  "action": ""
-                },
-                {
-                  "step": "#2",
-                  "task": "Create a query fetch_users with the Mock DB",
-                  "status": "--",
-                  "action": ""
-                },
-                {
-                  "step": "#3",
-                  "task": "Bind the query using => fetch_users.data",
-                  "status": "--",
-                  "action": ""
-                }
-              ],
+              "tableData": "{{handle_get_in_stock.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -527,7 +741,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 12,
+                      "bottomRow": 7,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -575,6 +789,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{handle_get_product_reviews.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -587,6 +802,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 46,
                       "dynamicBindingPathList": [
                         {
@@ -672,8 +892,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 15,
-                      "bottomRow": 22,
+                      "topRow": 10,
+                      "bottomRow": 17,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -770,7 +990,7 @@
                 "group"
               ],
               "topRow": 46,
-              "bottomRow": 70,
+              "bottomRow": 66,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -791,7 +1011,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 240,
+                  "bottomRow": 200,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -812,8 +1032,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 9,
-                      "bottomRow": 16,
+                      "topRow": 5,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -872,7 +1092,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 9,
+                      "bottomRow": 5,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -920,6 +1140,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button3",
+                      "onClick": "{{handle_get_in_stock.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -927,11 +1148,16 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 18,
-                      "bottomRow": 22,
+                      "topRow": 14,
+                      "bottomRow": 18,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 41,
                       "dynamicBindingPathList": [
                         {
@@ -974,8 +1200,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 18,
-                      "bottomRow": 22,
+                      "topRow": 14,
+                      "bottomRow": 18,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -1044,12 +1270,35 @@
               "originalTopRow": 46,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 70,
+              "originalBottomRow": 66,
               "minDynamicHeight": 10
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "FrankPage2_handle_get_in_stock",
+              "name": "handle_get_in_stock",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "enter_supplier.inputText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "FrankPage2_handle_get_product_reviews",
+              "name": "handle_get_product_reviews",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "productID.inputText"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "FrankPage2",

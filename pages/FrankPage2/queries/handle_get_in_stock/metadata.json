@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/f/products/inStock/suppliers/{{enter_supplier.text}}"
+        "url": "web:4000/f/products/inStock/suppliers/{{enter_supplier.inputText}}"
       },
       "invalids": [],
       "messages": [],
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "datasourceUrl"
@@ -46,7 +46,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "enter_supplier.text"
+      "enter_supplier.inputText"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

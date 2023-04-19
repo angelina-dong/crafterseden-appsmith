@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "handle_new_product",
+    "name": "add_new_product",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "FrankPage1_handle_new_product",
+  "id": "FrankPage1_add_new_product",
   "deleted": false,
   "gitSyncId": "643c08f03ee7d534e3ad7198_643c0fa63ee7d534e3ad71a0"
 }

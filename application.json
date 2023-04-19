@@ -7,6 +7,13 @@
     {
       "id": "FrankPage2",
       "isDefault": false
+    {
+      "id": "MaryPage1",
+      "isDefault": false
+    },
+    {
+      "id": "MaryPage2",
+      "isDefault": false
     }
   ],
   "viewMode": false,

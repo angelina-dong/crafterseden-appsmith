@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api2",
+    "name": "delete_product",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000"
+        "url": "web:4000/f/products/"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Frank",
+    "pageId": "FrankPage1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Frank_Api2",
+  "id": "FrankPage1_delete_product",
   "deleted": false,
   "gitSyncId": "643c08f03ee7d534e3ad7198_643c160d3ee7d534e3ad71a7"
 }

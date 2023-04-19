@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Frank",
+      "id": "FrankPage1",
       "isDefault": true
+    },
+    {
+      "id": "FrankPage2",
+      "isDefault": false
     }
   ],
   "viewMode": false,

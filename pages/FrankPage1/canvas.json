@@ -79,7 +79,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 4,
+                      "bottomRow": 6,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -135,8 +135,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 70,
-                      "bottomRow": 74,
+                      "topRow": 72,
+                      "bottomRow": 76,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -187,8 +187,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 70,
-                      "bottomRow": 74,
+                      "topRow": 72,
+                      "bottomRow": 76,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -225,7 +225,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "productName",
+                      "widgetName": "ProductName",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -234,8 +234,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 4,
-                      "bottomRow": 10,
+                      "topRow": 6,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -286,7 +286,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "manufacturingCountry",
+                      "widgetName": "ManufacturingCountry",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -295,8 +295,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 52,
-                      "bottomRow": 58,
+                      "topRow": 54,
+                      "bottomRow": 60,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -347,7 +347,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "photos",
+                      "widgetName": "Photos",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -356,8 +356,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 59,
-                      "bottomRow": 65,
+                      "topRow": 61,
+                      "bottomRow": 67,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -398,17 +398,17 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 54,
+                      "originalTopRow": 61,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 60,
+                      "originalBottomRow": 67,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "material",
+                      "widgetName": "Material",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -417,8 +417,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 46,
+                      "topRow": 42,
+                      "bottomRow": 48,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -469,7 +469,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "color",
+                      "widgetName": "Color",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -478,8 +478,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 34,
-                      "bottomRow": 40,
+                      "topRow": 36,
+                      "bottomRow": 42,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -530,7 +530,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "size",
+                      "widgetName": "Size",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -539,8 +539,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 28,
-                      "bottomRow": 34,
+                      "topRow": 30,
+                      "bottomRow": 36,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -591,7 +591,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "brand",
+                      "widgetName": "Brand",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -600,8 +600,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 22,
-                      "bottomRow": 28,
+                      "topRow": 24,
+                      "bottomRow": 30,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -652,7 +652,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "supplierID",
+                      "widgetName": "SupplierID",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -661,8 +661,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 16,
-                      "bottomRow": 22,
+                      "topRow": 18,
+                      "bottomRow": 24,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -713,7 +713,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "unitsInStock",
+                      "widgetName": "UnitsInStock",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -722,8 +722,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 10,
-                      "bottomRow": 16,
+                      "topRow": 12,
+                      "bottomRow": 18,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -775,7 +775,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
-                      "topRow": 46,
+                      "topRow": 48,
                       "defaultCurrencyCode": "USD",
                       "labelWidth": 5,
                       "type": "CURRENCY_INPUT_WIDGET",
@@ -802,13 +802,13 @@
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "originalBottomRow": 54,
-                      "widgetName": "price",
+                      "widgetName": "Price",
                       "displayName": "Currency Input",
                       "searchTags": [
                         "amount",
                         "total"
                       ],
-                      "bottomRow": 52,
+                      "bottomRow": 54,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -969,6 +969,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button3",
+                      "onClick": "{{delete_product.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -981,6 +982,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 47,
                       "dynamicBindingPathList": [
                         {
@@ -1061,7 +1067,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1",
+                      "widgetName": "ProductID",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -1201,14 +1207,27 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
-                      "topRow": 9,
-                      "defaultCurrencyCode": "USD",
+                      "widgetName": "ProductID_U",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 6,
+                      "bottomRow": 13,
+                      "parentRowSpace": 10,
                       "labelWidth": 5,
-                      "type": "CURRENCY_INPUT_WIDGET",
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
                       "animateLoading": true,
+                      "parentColumnSpace": 5.001953125,
+                      "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 5,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1217,45 +1236,32 @@
                           "key": "borderRadius"
                         }
                       ],
+                      "labelPosition": "Top",
                       "labelStyle": "",
+                      "inputType": "TEXT",
                       "isDisabled": false,
+                      "key": "bpfqo9vrob",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 53,
                       "dynamicHeight": "FIXED",
+                      "widgetId": "csiqqzfazt",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "showStepArrows": false,
-                      "isVisible": true,
-                      "allowCurrencyChange": false,
-                      "version": 1,
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 17,
-                      "widgetName": "PriceCopy",
-                      "displayName": "Currency Input",
-                      "searchTags": [
-                        "amount",
-                        "total"
-                      ],
-                      "bottomRow": 15,
-                      "parentRowSpace": 10,
-                      "autoFocus": false,
-                      "hideCard": false,
-                      "parentColumnSpace": 6.109130859375,
-                      "dynamicTriggerPathList": [],
-                      "labelPosition": "Top",
-                      "key": "abq0k31yk5",
-                      "labelTextSize": "0.875rem",
-                      "isDeprecated": false,
-                      "rightColumn": 49,
-                      "widgetId": "szff5tdjzf",
                       "minWidth": 450,
-                      "label": "Price",
+                      "isVisible": true,
+                      "label": "Product ID",
+                      "version": 2,
                       "parentId": "g0tau8fuvg",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
+                      "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 11,
+                      "originalTopRow": 8,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "decimals": 2,
+                      "originalBottomRow": 15,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -1318,6 +1324,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button5",
+                      "onClick": "{{handle_update_product.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -1330,6 +1337,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 46,
                       "dynamicBindingPathList": [
                         {
@@ -1410,7 +1422,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input3",
+                      "widgetName": "UnitsInStock_U",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -1419,8 +1431,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 17,
-                      "bottomRow": 24,
+                      "topRow": 14,
+                      "bottomRow": 21,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -1430,7 +1442,7 @@
                       "parentColumnSpace": 3.431640625,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 5,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1447,7 +1459,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 50,
+                      "rightColumn": 47,
                       "dynamicHeight": "FIXED",
                       "widgetId": "1975qbsret",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",

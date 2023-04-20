@@ -1425,7 +1425,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "MaryPage1_get_project",
+              "id": "644096858c437512443f0322",
               "name": "get_project",
               "confirmBeforeExecute": false,
               "pluginType": "API",

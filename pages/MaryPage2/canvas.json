@@ -981,7 +981,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "MaryPage2_get_product_details",
+              "id": "644096858c437512443f0324",
               "name": "get_product_details",
               "confirmBeforeExecute": false,
               "pluginType": "API",

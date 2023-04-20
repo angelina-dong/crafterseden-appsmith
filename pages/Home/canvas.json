@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Frank",
-    "slug": "frank",
+    "name": "Home",
+    "slug": "home",
     "layouts": [
       {
         "viewMode": false,
@@ -85,7 +85,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Frank",
+        "id": "Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -93,7 +93,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "643aae8c2f5f6018c73d59b9_643aae8c2f5f6018c73d59bb"
